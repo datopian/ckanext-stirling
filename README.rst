@@ -61,7 +61,7 @@ Then run the following command that is going to install LESS::
 After a successful installation, run the next command to compile the main less
 file ``stirling.less`` to ``stirling.css``::
 
-    npm run less less/stirling.less css/stirling.css
+    ./node_modules/.bin/lessc less/stirling.less css/stirling.css
 
 Every time there is some change in one of the less files, the upper command
 needs to be run to compile those files to one css file.
