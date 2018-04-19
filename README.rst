@@ -52,16 +52,16 @@ npm module is used.
 
 First make sure that you have installed `Node.js <https://nodejs.org/en/>`_. That
 will install the ``npm`` package manager. After that, open up the terminal and
-change the current directory to ``ckanext-perth/ckanext/perth/fanstatic``.
+change the current directory to ``ckanext-stirling/ckanext/perth/fanstatic``.
 
 Then run the following command that is going to install LESS::
 
     npm install less
 
 After a successful installation, run the next command to compile the main less
-file ``perth.less`` to ``perth.css``::
+file ``stirling.less`` to ``stirling.css``::
 
-    ./node_modules/.bin/lessc less/stirling.less css/stirling.css
+    npm run less less/stirling.less css/stirling.css
 
 Every time there is some change in one of the less files, the upper command
 needs to be run to compile those files to one css file.
