@@ -1,0 +1,11 @@
+{
+  "name": "ckanext-stirling",
+  "scripts": {
+    "watch": "less-watch-compiler less/ css/ stirling.less",
+    "less": "./node_modules/.bin/lessc less/stirling.less css/stirling.css"
+  },
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-watch-compiler": "^1.6.7"
+  }
+}
