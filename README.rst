@@ -15,11 +15,11 @@ To install ckanext-stirling:
 
      . /usr/lib/ckan/default/bin/activate
 
-2. Install the ckanext-perth Python package into your virtual environment::
+2. Install the ckanext-stirling Python package into your virtual environment::
 
      pip install git+https://github.com/ViderumGlobal/ckanext-stirling.git#egg=ckanext-stirling
 
-3. Add ``perth`` to the ``ckan.plugins`` setting in your CKAN
+3. Add ``stirling`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at
    ``/etc/ckan/default/production.ini``).
 
@@ -52,7 +52,7 @@ npm module is used.
 
 First make sure that you have installed `Node.js <https://nodejs.org/en/>`_. That
 will install the ``npm`` package manager. After that, open up the terminal and
-change the current directory to ``ckanext-stirling/ckanext/perth/fanstatic``.
+change the current directory to ``ckanext-stirling/ckanext/stirling/fanstatic``.
 
 Then run the following command that is going to install LESS::
 
