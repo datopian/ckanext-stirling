@@ -29,6 +29,9 @@ body {
   background: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
+body a {
+  color: #272694;
+}
 .site-footer {
   background: #4b5363;
 }
@@ -91,6 +94,12 @@ input[type="color"]:focus {
 .masthead .btn-navbar:focus {
   background-color: #272694;
 }
+.masthead input[type="text"] {
+  border-color: #caced7;
+}
+.masthead input[type="text"]:focus {
+  border-color: #272694;
+}
 .language-picker li.active a {
   color: #ffffff;
 }
@@ -108,6 +117,14 @@ input[type="color"]:focus {
 }
 .btn-primary {
   background-color: #272694;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #1c1c6b;
 }
 .nav-main {
   background-color: #272694;
